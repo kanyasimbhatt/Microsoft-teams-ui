@@ -4,132 +4,153 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styling_files/styles.css" />
-    <link rel="stylesheet" href = "../styling_files/sidebar.css"/>
+    <link rel="stylesheet" href="../styling_files/sidebar.css" />
+    <link rel="stylesheet" href="../styling_files/chat-section.css" />
     <title>Microsoft Teams</title>
     <link rel="icon" type="image/x-icon" href="../images/business.png" />
   </head>
   <body>
     <nav>
-      <div id="logo">
-        <img id="dots9" src="../images/OIP.png" alt="9 dots menu" />
+      <div class="logo">
+        <img class="dots9" src="../images/OIP.png" alt="9 dots menu" />
 
         <img src="../images/business.png" alt="teams logo" />
       </div>
-      <div id="searchdiv">
-        <input id="searchbar" type="search" placeholder="Search(Ctrl+Alt+E)" />
+      <div class="searchdiv">
+        <input
+          class="searchbar"
+          type="search"
+          placeholder="Search(Ctrl+Alt+E)"
+        />
       </div>
     </nav>
 
-    <aside id="sidebar" aria-label="sidebar">
-      <div id="sidebar-section">
-        <a href="#">
-          <img
-            id="sidebar-img"
-            class="activity1"
-            src="../images/bell.png"
-            alt="activity icon"
-            height="22vw"
-            width="22vw"
-          />
-          <p id="sidebar-text">Activity</p>
-        </a>
-      </div>
-      <div
-        id="sidebar-section"
-        style="
-          background-color: rgb(247, 245, 245);
-          border-left: 0.2vw solid blue;
-        "
-      >
-        <a href="#">
-          <img
-            id="sidebar-img"
-            src="../images/chat.png"
-            alt="activity icon"
-            style="margin-left: 1.2vw"
-            height="22vw"
-            width="22vw"
-          />
-          <p id="sidebar-text">Chat</p>
-        </a>
-      </div>
+    <div class="sidebar-chatbar">
+      <aside class="sidebar" aria-label="sidebar">
+        <div class="sidebar-section">
+          <a href="activity.html">
+            <img
+              class="sidebar-img"
+              class="activity1"
+              src="../images/bell.png"
+              alt="activity icon"
+              
+            />
+            <p class="sidebar-text">Activity</p>
+          </a>
+        </div>
+        <div id="chat-section" class="sidebar-section">
+          <a href="index.html">
+            <img
+              class="sidebar-img"
+              src="../images/chat.png"
+              alt="activity icon"
+              style="margin-left: 1.2vw"
+              
+            />
+            <p class="sidebar-text">Chat</p>
+          </a>
+        </div>
 
-      <div id="sidebar-section">
-        <a href="#">
-          <img
-            id="sidebar-img"
-            src="../images/group.png"
-            alt="activity icon"
-            height="22vw"
-            width="22vw"
-          />
-          <p id="sidebar-text">Teams</p>
-        </a>
-      </div>
+        <div class="sidebar-section">
+          <a href="teams.html">
+            <img
+              class="sidebar-img"
+              src="../images/group.png"
+              alt="activity icon"
+              
+            />
+            <p class="sidebar-text">Teams</p>
+          </a>
+        </div>
 
-      <div id="sidebar-section">
-        <a href="#">
-          <img
-            id="sidebar-img"
-            src="../images/calendar.png"
-            alt="activity icon"
-            height="22vw"
-            width="22vw"
-          />
-          <p id="sidebar-text">Calender</p>
-        </a>
-      </div>
+        <div class="sidebar-section">
+          <a href="calender.html">
+            <img
+              class="sidebar-img"
+              src="../images/calendar.png"
+              alt="activity icon"
+              
+            />
+            <p class="sidebar-text">Calender</p>
+          </a>
+        </div>
 
-      <div id="sidebar-section">
-        <a href="#">
-          <img
-            id="sidebar-img"
-            src="../images/call.png"
-            alt="activity icon"
-            height="22vw"
-            width="22vw"
-          />
-          <p id="sidebar-text">Call</p>
-        </a>
-      </div>
+        <div class="sidebar-section">
+          <a href="call.html">
+            <img
+              class="sidebar-img"
+              src="../images/call.png"
+              alt="activity icon"
+              
+            />
+            <p class="sidebar-text">Call</p>
+          </a>
+        </div>
 
-      <div id="sidebar-section">
-        <a href="#">
-          <img
-            id="sidebar-img"
-            src="../images/cloud.png"
-            alt="activity icon"
-            height="22vw"
-            width="22vw"
-          />
-          <p id="sidebar-text">One Cloud</p>
-        </a>
-      </div>
+        <div class="sidebar-section">
+          <a href="one_cloud.html">
+            <img
+              class="sidebar-img"
+              src="../images/cloud.png"
+              alt="activity icon"
+              
+            />
+            <p class="sidebar-text">One Cloud</p>
+          </a>
+        </div>
 
-      <div id="sidebar-section" style="padding-bottom: 1vw">
-        <a href="#">
-          <img
-            id="sidebar-img"
-            src="../images/more.png"
-            alt="extra options"
-            height="22vw"
-            width="22vw"
-          />
-        </a>
-      </div>
+        <div class="sidebar-section" id = "more-section">
+          <a href="#">
+            <img
+              class="sidebar-img"
+              src="../images/more.png"
+              alt="extra options"
+              
+            />
+          </a>
+        </div>
 
-      <div id="sidebar-section">
-        <a href="#">
-          <img
-            id="sidebar-img"
-            src="../images/addition.png"
-            alt="activity icon"
-            height="22vw"
-            width="22vw"
-          />
-          <p id="sidebar-text">Add</p>
-        </a>
-      </div>
-    </aside>
+        <div class="sidebar-section">
+          <a href="add.html">
+            <img
+              class="sidebar-img"
+              src="../images/addition.png"
+              alt="activity icon"
+              
+            />
+            <p class="sidebar-text">Add</p>
+          </a>
+        </div>
+      </aside>
+
+      <aside class="chat-sidebar" aria-label="chat-sidebar">
+        <div class="chat-text-div">
+          <h3>Chat</h3>
+
+          <div class="chat-text-div-img">
+            <img
+              src="../images/more.png"
+              alt="more option"
+              height="15vw"
+              width="20vw"
+            />
+            <img
+              src="../images/sort.png"
+              alt="filter"
+              height="15vw"
+              width="20vw"
+            />
+            <img
+              src="../images/new-chat.png"
+              alt="add chat icon"
+              height="15vw"
+              width="20vw"
+            />
+          </div>
+        </div>
+
+        
+
   </body>
 </html>

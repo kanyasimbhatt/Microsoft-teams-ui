@@ -1,32 +1,29 @@
-#sidebar-section:hover{
-    background-color: rgb(247, 245, 245);
-    
+.sidebar-section:hover{
+    background-color: rgb(247, 245, 245); 
 }
 
-#sidebar-section{
+.sidebar-section{
     margin-bottom: 0;
 }
 
-#sidebar-img{
+.sidebar-img{
     margin-top: 1vw;
     margin-left: 1.3vw;
-
-    
-    
+    height: 1.2vw;
+    width: 1.2vw;
 }
 
 .activity1:hover{
     background-image: url(./images/bell\ \(1\).png);
 }
 
-#sidebar-text{
+.sidebar-text{
     padding-bottom: 0.3vw;
     margin-top: 0.1vw;
     font-size: 10px;
     text-align: center;
     margin-left: 0.4vw;
     margin-right: 0.4vw;
-    
 }
 
 a:link{
@@ -38,10 +35,9 @@ a:visited{
     color: black;
 }
 
-#sidebar{
+.sidebar{
     height: calc(100vh - 1.5rem);
     width: 3.7vw;
     background-color: rgb(230, 228, 228);
     border: 0.1vw solid rgb(209, 208, 208);
-
 }
