@@ -30,6 +30,11 @@ p{
     margin: 0;
 }
 
+.imageHW{
+    height: 1vw;
+    width: 1vw;
+}
+
 summary{
     color: grey;
     font-size: small;
