@@ -2,7 +2,8 @@
   height: calc(100vh - 1.5rem);
   width: 3.7vw;
   background-color: rgb(230, 228, 228);
-  border: 0.1vw solid rgb(209, 208, 208);
+  border-bottom: 0.1vw solid rgb(209, 208, 208);
+  border-right: 0.1vw solid rgb(209, 208, 208);
 }
 
 .sidebar-section {
