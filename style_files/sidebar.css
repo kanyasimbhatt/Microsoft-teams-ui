@@ -1,0 +1,53 @@
+.sidebar {
+  height: calc(100vh - 1rem);
+  width: 3.7vw;
+  background-color: rgb(230, 228, 228);
+  border-bottom: 0.1vw solid rgb(209, 208, 208);
+  border-right: 0.1vw solid rgb(209, 208, 208);
+}
+
+.sidebar-section {
+  margin-bottom: 0;
+}
+
+.sidebar-section:hover {
+  background-color: rgb(247, 245, 245);
+}
+
+.chat-new {
+  border-left: 0.2vw solid blue;
+  background-color: rgb(247, 245, 245);
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+.sidebar-img {
+  margin-top: 1vw;
+  margin-left: 1.3vw;
+  height: 1.2vw;
+  width: 1.2vw;
+}
+
+.new {
+  margin-bottom: 0vw;
+}
+
+.sidebar-text {
+  padding-bottom: 0.3vw;
+  margin-top: 0.1vw;
+  font-size: 10px;
+  text-align: center;
+  margin-left: 0.4vw;
+  margin-right: 0.4vw;
+}
+
+#chat-logo {
+  margin-left: 1.2vw;
+}

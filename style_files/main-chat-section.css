@@ -1,0 +1,118 @@
+.main-chat-section {
+  display: flex;
+}
+
+.main-chat-heading {
+  width: calc(100rem - 12.7rem);
+  display: flex;
+  flex-direction: row;
+  padding: 0 1vw 0 1vw;
+  align-items: center;
+  height: 3.25vw;
+  border-bottom: 0.1vw solid rgb(209, 208, 208);
+}
+
+h5 {
+  margin: 0 0.2vw 0 0.2vw;
+  padding: 1vw;
+  font-weight: lighter;
+}
+
+#chat-text-main-chat-heading {
+  border-bottom: 0.22vw solid blue;
+  border-radius: 0.2vw;
+}
+
+#shared-text-main-chat-heading {
+  color: gray;
+}
+
+#shared-text-main-chat-heading:hover {
+  border-bottom: 0.22vw solid rgb(109, 106, 106);
+  border-radius: 0.2vw;
+}
+
+#main-chat-heading-img {
+  display: flex;
+  margin-right: 1vw;
+  flex: 1;
+  justify-content: right;
+}
+
+.main-chat-body {
+  width: calc(100rem - 10rem);
+  height: calc(100rem - 48rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  flex: auto;
+  overflow-y: scroll;
+}
+
+.main-chat-body-chats {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: auto;
+  padding: 2vw;
+}
+
+#frontendmentor-link {
+  width: 25vw;
+  height: 2vh;
+  background-color: #e8ebfa;
+  border-radius: 5px;
+  padding: 1vw;
+  font-size: 0.7vw;
+  font-family: sans-serif;
+  margin-left: 14vw;
+}
+
+#accessibility-text {
+  height: 17vh;
+  width: 40vw;
+  background-color: #e8ebfa;
+  border-radius: 5px;
+  padding: 1vw;
+  font-size: 0.7vw;
+  font-family: sans-serif;
+}
+
+.text-on-chat {
+  display: flex;
+  margin-bottom: 0.5vw;
+  color: #616161;
+}
+
+#day-text-on-accessibility {
+  margin-right: 15vw;
+  color: #616161;
+}
+
+#day-text-on-friday {
+  margin-right: 16vw;
+  color: #616161;
+}
+
+#textbar {
+  height: 2vw;
+  width: 40vw;
+  padding-left: 1.1vw;
+  text-align: left;
+  border: none;
+}
+
+.textbar-section {
+  padding: 0.2vw;
+  display: flex;
+  border: 1px solid rgb(219, 219, 219);
+  align-content: center;
+  border-radius: 5px;
+  height: 2vw;
+  width: 45vw;
+}
+
+.margin-top-style {
+  margin-top: 0.3vw;
+}
