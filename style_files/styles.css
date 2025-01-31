@@ -23,7 +23,7 @@ nav {
 }
 
 .logo {
-  width: 20%;
+  width: 50%;
 }
 
 img {
@@ -32,7 +32,7 @@ img {
 }
 
 #searchdiv {
-  width: 80%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: left;
