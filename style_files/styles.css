@@ -18,14 +18,7 @@ nav {
 }
 
 .logo {
-  width: 40%;
-}
-
-.searchdiv {
-  width: 60%;
-  display: flex;
-  align-items: center;
-  justify-content: left;
+  width: 20%;
 }
 
 img {
@@ -33,7 +26,14 @@ img {
   height: 100%;
 }
 
-.searchbar {
+#searchdiv {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+#searchbar {
   height: 2vw;
   width: 25vw;
   text-align: center;
