@@ -29,6 +29,7 @@ nav {
 img {
   margin: 0 0.5vw 0 0.5vw;
   height: 100%;
+  cursor: pointer;
 }
 
 #searchdiv {

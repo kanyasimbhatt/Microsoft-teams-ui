@@ -46,6 +46,7 @@ summary:hover {
 
 .pinned-chat {
   padding: 0.5vw;
+  cursor: pointer;
 }
 
 .self-chat {
@@ -54,6 +55,7 @@ summary:hover {
   height: 2.3vw;
   width: 100%;
   border-radius: 0.3vw;
+  cursor: pointer;
 }
 
 .self-chat:hover {
