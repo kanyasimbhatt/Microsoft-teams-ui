@@ -4,16 +4,22 @@
 
 main {
   width: 100%;
+  height: 100%;
+  margin-left: 23.8vw;
 }
 
 .main-chat-heading {
-  width: calc(100rem - 12.7rem);
+  position: fixed;
+  width: 100%;
+  margin-top: 2.95vw;
+  font-size: 1vw;
   display: flex;
   flex-direction: row;
   padding: 0 1vw 0 1vw;
   align-items: center;
   height: 3.25vw;
   border-bottom: 0.1vw solid rgb(209, 208, 208);
+  background-color: #fafafa;
 }
 
 h3 {
@@ -43,21 +49,21 @@ h5 {
 }
 
 #main-chat-heading-img {
+  margin-right: 25vw;
   display: flex;
-  margin-right: 1vw;
   flex: 1;
   justify-content: right;
 }
 
 .main-chat-body {
-  /* width: calc(100rem - 10rem);G */
-  /* height: calc(100rem - 48rem); */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  flex: auto;
-  overflow-y: scroll;
+}
+
+.main-text-chats {
+  margin-bottom: 3vw;
 }
 
 .main-chat-body-chats {
@@ -66,6 +72,7 @@ h5 {
   align-items: flex-end;
   height: auto;
   padding: 2vw;
+  z-index: -1;
 }
 
 #frontendmentor-link {
@@ -123,15 +130,14 @@ a.chat-link:visited {
 }
 
 .textbar-section {
+  background-color: #fafafa;
+  position: fixed;
   padding: 0.2vw;
   display: flex;
+  align-items: center;
   border: 1px solid rgb(219, 219, 219);
-  align-content: center;
   border-radius: 5px;
   height: 2vw;
   width: 45vw;
-}
-
-.margin-top-style {
-  margin-top: 0.3vw;
+  margin-bottom: 26.5vw;
 }
