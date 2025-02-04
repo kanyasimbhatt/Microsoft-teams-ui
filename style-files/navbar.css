@@ -22,7 +22,7 @@ nav {
   background-color: rgb(247, 245, 245);
 }
 
-.logo {
+#logo {
   width: 40%;
 }
 
@@ -34,6 +34,7 @@ img {
 
 #searchdiv {
   width: 60%;
+  font-size: 1vw;
   display: flex;
   align-items: center;
   justify-content: right;
@@ -48,6 +49,11 @@ img {
   border-radius: 5px;
 }
 
+#searchimg {
+  display: none;
+  justify-content: flex-start;
+}
+
 .profile-img-section {
   margin-right: 0.5vw;
   display: flex;
@@ -60,4 +66,18 @@ img {
   height: 1.5vw;
   width: 1.5vw;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 710px) {
+  #searchbar {
+    display: none;
+  }
+
+  #searchimg {
+    display: inline;
+  }
+
+  #logo {
+    display: none;
+  }
 }

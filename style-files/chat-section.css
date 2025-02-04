@@ -40,7 +40,7 @@ p {
 
 summary {
   color: grey;
-  font-size: 0.8vw;
+  font-size: 0.65vw;
 }
 
 summary:hover {
@@ -167,4 +167,10 @@ summary:hover {
   align-items: center;
   border-radius: 50%;
   background-color: rgb(160, 233, 178);
+}
+
+@media screen and (max-width: 1239px) {
+  .chat-sidebar {
+    display: none;
+  }
 }

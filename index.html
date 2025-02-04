@@ -15,13 +15,14 @@
       <div id="logo">
         <img id="dots9" src="../images/OIP.png" alt="9 dots menu" tabindex="0"/>
 
-        <img src="../images/business.png" alt="teams logo" />
+        <img src="../images/business.png" alt="teams logo" tabindex="0"/>
       </div>
       <div id="searchdiv">
         <input id="searchbar" type="search" placeholder="Search(Ctrl+Alt+E)" />
+        <img src="./images/search.png" alt="search img" id = "searchimg" class = "imageHW" tabindex="0"/>
         <div class = "profile-img-section">
-        <img src="../images/more.png" alt = "more section button" class = "imageHW">
-        <img src="../images/IMG_6745.jpg" alt = "profile section" id = "profile-img">
+        <img src="../images/more.png" alt = "more section button" class = "imageHW" tabindex="0">
+        <img src="../images/IMG_6745.jpg" alt = "profile section" id = "profile-img" tabindex="0">
 
     </div>
       </div>
@@ -30,17 +31,18 @@
       <div class="navigation-sidebar-chatbar">
         <aside class="sidebar" aria-label="sidebar">
           <div class="sidebar-section">
-            <a href="#">
+            
               <img
                 class="sidebar-img"
                 src="../images/bell.png"
                 alt="activity icon"
               />
+            
               <p class="sidebar-text">Activity</p>
-            </a>
+            
+            
           </div>
-          <div class="sidebar-section chat-new">
-            <a href="index.html">
+          <div class="sidebar-section chat-new" tabindex="0">
               <img
                 class="sidebar-img"
                 src="../images/chat.png"
@@ -48,72 +50,59 @@
                 id="chat-logo"
               />
               <p class="sidebar-text">Chat</p>
-            </a>
           </div>
 
           <div class="sidebar-section">
-            <a href="#">
               <img
                 class="sidebar-img"
                 src="../images/group.png"
                 alt="activity icon"
               />
               <p class="sidebar-text">Teams</p>
-            </a>
           </div>
 
           <div class="sidebar-section">
-            <a href="#">
               <img
                 class="sidebar-img"
                 src="../images/calendar.png"
                 alt="activity icon"
               />
               <p class="sidebar-text">Calender</p>
-            </a>
           </div>
 
           <div class="sidebar-section">
-            <a href="#">
               <img
                 class="sidebar-img"
                 src="../images/call.png"
                 alt="activity icon"
               />
               <p class="sidebar-text">Call</p>
-            </a>
           </div>
 
           <div class="sidebar-section">
-            <a href="#">
               <img
                 class="sidebar-img"
                 src="../images/cloud.png"
                 alt="activity icon"
               />
               <p class="sidebar-text">One Cloud</p>
-            </a>
           </div>
 
           <div class="sidebar-section" id="more-section">
-            <a href="#">
               <img
                 class="sidebar-img new"
                 src="../images/more.png"
                 alt="extra options"
               />
-            </a>
           </div>
 
           <div class="sidebar-section">
-            <a href="#">
               <img
                 class="sidebar-img"
                 src="../images/addition.png"
                 alt="activity icon"
               />
               <p class="sidebar-text">Add</p>
-            </a>
           </div>
         </aside>
 
@@ -122,18 +111,18 @@
             <h3>Chat</h3>
 
             <div class="chat-text-div-img">
-              <img class="imageHW" src="../images/more.png" alt="more option" />
-              <img class="imageHW" src="../images/sort.png" alt="filter" />
+              <img class="imageHW" src="../images/more.png" alt="more option" tabindex="0"/>
+              <img class="imageHW" src="../images/sort.png" alt="filter" tabindex="0"/>
               <img
                 class="imageHW"
                 src="../images/new-chat.png"
-                alt="add chat icon"
+                alt="add chat icon" tabindex="0"
               />
             </div>
           </div>
           <details class="pinned-chat" open>
             <summary>Pinned</summary>
-            <div class="self-chat chat-selected">
+            <div class="self-chat chat-selected" tabindex="0">
               <img
                 class="self-chat-img"
                 src="../images/IMG_6745.jpg"
@@ -240,18 +229,18 @@
             src="../images/IMG_6745.jpg"
             alt="account profile"
           />
-          <h3>Kanya Saras Bhatt (You)</h3>
+          <h3 tabindex="0">Kanya Saras Bhatt (You)</h3>
 
-          <h5 id="chat-text-main-chat-heading">Chat</h5>
+          <h5 id="chat-text-main-chat-heading" tabindex="0" >Chat</h5>
 
           <h5 id="shared-text-main-chat-heading">Shared</h5>
 
           <div id="main-chat-heading-img">
-            <img class="imageHW" src="../images/more.png" alt="more section" />
+            <img class="imageHW" src="../images/more.png" alt="more section" tabindex="0"/>
             <img
               class="imageHW"
               src="../images/hide.png"
-              alt="open sidebar section"
+              alt="open sidebar section" tabindex="0"
             />
           </div>
         </div>
@@ -352,7 +341,7 @@
                     <p id ="day-text-on-accessibility">Yesterday</p>
                     <p>Yesterday 18:00</p>
                 </div>
-                <div id = "accessibility-text">
+                <div id = "accessibility-text" tabindex="0">
                     <p>ACCESSIBILITY<br></p>
                         <ul>
                             <li>Use semantic HTML, aka "The right element for the right job", because the browser provides so many built-in accessibility hooks.</li>
@@ -366,23 +355,24 @@
             </div>
 
           </div>
-            
+        </div>
+            <div id = "text-style">
           <div class="textbar-section">
             <input
               id="textbar"
               type="text"
               placeholder="Type a Message"
             ></input>
-            <img class = "imageHW margin-top-style" src="../images/color.png" alt="font layout change button">
-            <img class = "imageHW margin-top-style" src="../images/happiness.png" alt="add emojis button">
-            <img class = "imageHW margin-top-style" src="../images/update-arrows.png" alt="loop component">
-            <img class = "imageHW margin-top-style" src="../images/plus.png" alt="add attachments">
-            <img class = "imageHW margin-top-style" src="../images/send.png" alt="send button">
+            <img class = "imageHW margin-top-style" src="../images/color.png" alt="font layout change button" tabindex="0">
+            <img class = "imageHW margin-top-style" src="../images/happiness.png" alt="add emojis button" tabindex="0">
+            <img class = "imageHW margin-top-style" src="../images/update-arrows.png" alt="loop component" tabindex="0">
+            <img class = "imageHW margin-top-style" src="../images/plus.png" alt="add attachments" tabindex="0">
+            <img class = "imageHW margin-top-style" src="../images/send.png" alt="send button" tabindex="0">
 
             
           </div>
-  
-          </div>
+        </div>
+        
         
         
       </main>

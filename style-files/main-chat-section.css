@@ -56,6 +56,8 @@ h5 {
 }
 
 .main-chat-body {
+  margin-top: 5vw;
+  flex: 1 1 auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -67,6 +69,7 @@ h5 {
 }
 
 .main-chat-body-chats {
+  font-size: 2.2vw;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -124,6 +127,7 @@ a.chat-link:visited {
 #textbar {
   height: 2vw;
   width: 40vw;
+  font-size: 1vw;
   padding-left: 1.1vw;
   text-align: left;
   border: none;
@@ -131,13 +135,66 @@ a.chat-link:visited {
 
 .textbar-section {
   background-color: #fafafa;
-  position: fixed;
   padding: 0.2vw;
   display: flex;
   align-items: center;
   border: 1px solid rgb(219, 219, 219);
   border-radius: 5px;
+  height: 100%;
+  width: 100%;
+}
+
+#text-style {
+  margin-left: 20vw;
+  margin-bottom: 1vw;
+  position: fixed;
+  bottom: 0%;
   height: 2vw;
-  width: 45vw;
-  margin-bottom: 26.5vw;
+  width: 40vw;
+}
+
+@media screen and (max-width: 1239px) {
+  main {
+    margin-left: 4vw;
+  }
+  #main-chat-heading-img {
+    margin-right: 5vw;
+  }
+
+  #text-style {
+    margin-left: 28vw;
+  }
+}
+
+@media screen and (max-width: 1730px) {
+  .main-chat-heading {
+    margin-top: 2.95vw;
+  }
+}
+
+@media screen and (max-height: 978px) {
+  .main-chat-heading {
+    margin-top: 2.98vw;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .main-chat-heading {
+    margin-top: 2.98vw;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  main {
+    margin-left: 4.6vw;
+  }
+}
+
+@media screen and (max-width: 911px) {
+  main {
+    margin-left: 0vw;
+  }
+  #main-chat-heading-img {
+    margin-right: 1.4vw;
+  }
 }
