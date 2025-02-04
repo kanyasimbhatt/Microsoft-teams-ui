@@ -69,7 +69,7 @@ h5 {
 }
 
 .main-chat-body-chats {
-  font-size: 2.2vw;
+  font-size: 0.8vw;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -84,7 +84,6 @@ h5 {
   background-color: #e8ebfa;
   border-radius: 5px;
   padding: 1vw;
-  font-size: 0.7vw;
   font-family: sans-serif;
   margin-left: 14vw;
 }
@@ -99,12 +98,11 @@ a.chat-link:visited {
 }
 
 #accessibility-text {
-  height: 17vh;
+  height: 10vw;
   width: 40vw;
   background-color: #e8ebfa;
   border-radius: 5px;
   padding: 1vw;
-  font-size: 0.7vw;
   font-family: sans-serif;
 }
 
@@ -127,7 +125,7 @@ a.chat-link:visited {
 #textbar {
   height: 2vw;
   width: 40vw;
-  font-size: 1vw;
+  font-size: 0.7vw;
   padding-left: 1.1vw;
   text-align: left;
   border: none;
@@ -145,12 +143,12 @@ a.chat-link:visited {
 }
 
 #text-style {
-  margin-left: 18.5vw;
+  margin-left: 17.5vw;
   margin-bottom: 2vw;
   position: fixed;
   bottom: 0%;
   height: 2vw;
-  width: 40vw;
+  width: 41vw;
 }
 
 @media screen and (max-width: 1239px) {
