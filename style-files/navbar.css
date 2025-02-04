@@ -3,6 +3,7 @@ body {
   font-family: sans-serif;
   height: 100%;
   width: 100%;
+  margin-bottom: 3vw;
 }
 
 nav {
@@ -48,6 +49,7 @@ img {
 }
 
 .profile-img-section {
+  margin-right: 0.5vw;
   display: flex;
   justify-content: flex-end;
   align-items: center;

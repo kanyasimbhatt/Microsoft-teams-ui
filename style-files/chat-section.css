@@ -40,7 +40,7 @@ p {
 
 summary {
   color: grey;
-  font-size: small;
+  font-size: 0.8vw;
 }
 
 summary:hover {
