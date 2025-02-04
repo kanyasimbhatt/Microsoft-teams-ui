@@ -6,7 +6,9 @@ This Project showcases only the UI layout of Microsoft teams.
 
 To View the website, kindly visit: https://m-teams-layout-ui.netlify.app/
 
-## Table of contents (optional)
+![Microsoft teams layout](./images/teams-ui-photo.png "Microsoft teams layout")
+
+## Table of contents
 
 - Requirements
 - Installation
@@ -27,7 +29,7 @@ None.
 
 For troubleshoot kindly reach out.
 
-## FAQ (optional)
+## FAQ
 
 **Q: How do I use this application?**
 
