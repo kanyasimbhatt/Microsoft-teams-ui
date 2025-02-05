@@ -88,11 +88,6 @@ summary:hover {
   background-color: rgb(160, 160, 233);
 }
 
-#chat-section {
-  background-color: rgb(247, 245, 245);
-  border-left: 0.2vw solid blue;
-}
-
 #more-section {
   padding-bottom: 1vw;
 }
