@@ -80,7 +80,6 @@ h5 {
 
 #frontendmentor-link {
   width: 25vw;
-  height: 2vh;
   background-color: #e8ebfa;
   border-radius: 5px;
   padding: 1vw;
@@ -98,7 +97,6 @@ a.chat-link:visited {
 }
 
 #accessibility-text {
-  height: 10vw;
   width: 40vw;
   background-color: #e8ebfa;
   border-radius: 5px;
@@ -156,14 +154,13 @@ a.chat-link:visited {
   main {
     margin-left: 4vw;
   }
-  
+
   #main-chat-heading-img {
     margin-right: 5vw;
   }
 
   .textbar-section {
     margin-left: 28vw;
-    
   }
 }
 
@@ -195,13 +192,12 @@ a.chat-link:visited {
   main {
     margin-left: 0vw;
   }
-  
+
   #main-chat-heading-img {
     margin-right: 1.4vw;
   }
 
-  .textbar-section{
+  .textbar-section {
     margin-left: 29.5vw;
-
   }
 }
