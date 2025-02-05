@@ -72,7 +72,6 @@ h5 {
   align-items: flex-end;
   height: auto;
   padding: 2vw;
-  z-index: -1;
 }
 
 .text-on-chat {
@@ -96,6 +95,7 @@ h5 {
 }
 
 a.chat-link:link {
+  cursor: pointer;
   text-decoration: underline;
   color: blue;
 }
