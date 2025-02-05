@@ -62,9 +62,6 @@ h5 {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-}
-
-.main-text-chats {
   margin-bottom: 3vw;
 }
 
@@ -76,6 +73,17 @@ h5 {
   height: auto;
   padding: 2vw;
   z-index: -1;
+}
+
+.text-on-chat {
+  display: flex;
+  margin-bottom: 0.5vw;
+  color: #616161;
+}
+
+#day-text-on-friday {
+  margin-right: 16vw;
+  color: #616161;
 }
 
 #frontendmentor-link {
@@ -96,6 +104,11 @@ a.chat-link:visited {
   color: purple;
 }
 
+#day-text-on-accessibility {
+  margin-right: 15vw;
+  color: #616161;
+}
+
 #accessibility-text {
   width: 40vw;
   background-color: #e8ebfa;
@@ -104,29 +117,12 @@ a.chat-link:visited {
   font-family: sans-serif;
 }
 
-.text-on-chat {
-  display: flex;
-  margin-bottom: 0.5vw;
-  color: #616161;
-}
-
-#day-text-on-accessibility {
-  margin-right: 15vw;
-  color: #616161;
-}
-
-#day-text-on-friday {
-  margin-right: 16vw;
-  color: #616161;
-}
-
-#textbar {
-  height: 2vw;
-  width: 40vw;
-  font-size: 0.7vw;
-  padding-left: 1.1vw;
-  text-align: left;
-  border: none;
+#text-style {
+  position: fixed;
+  bottom: 0%;
+  height: 7vw;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
 }
 
 .textbar-section {
@@ -142,12 +138,13 @@ a.chat-link:visited {
   margin-top: 2.3vw;
 }
 
-#text-style {
-  position: fixed;
-  bottom: 0%;
-  height: 7vw;
-  width: 100%;
-  background-color: rgb(255, 255, 255);
+#textbar {
+  height: 2vw;
+  width: 40vw;
+  font-size: 0.7vw;
+  padding-left: 1.1vw;
+  text-align: left;
+  border: none;
 }
 
 @media screen and (max-width: 1239px) {
@@ -160,7 +157,9 @@ a.chat-link:visited {
   }
 
   .textbar-section {
-    margin-left: 28vw;
+    margin-left: 20vw;
+    width: 49vw;
+    height: 2.5vw;
   }
 }
 
