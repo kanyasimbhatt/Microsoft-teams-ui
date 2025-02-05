@@ -13,12 +13,12 @@ nav {
   border: 0.1vw solid rgb(209, 208, 208);
 }
 
-#logo {
-  width: 40%;
+.dots9:hover {
+  background-color: rgb(247, 245, 245);
 }
 
-#dots9:hover {
-  background-color: rgb(247, 245, 245);
+.logo {
+  width: 20%;
 }
 
 img {
@@ -27,7 +27,7 @@ img {
 }
 
 #searchdiv {
-  width: 60%;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: left;
