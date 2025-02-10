@@ -1,11 +1,16 @@
 body {
   margin: 0;
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 3vw;
 }
 
 nav {
+  position: fixed;
+  width: 100%;
   padding: 0.75vw;
   background-color: #ebebeb;
-  width: 100%;
   height: 1.3vw;
   border-radius: 1px;
   display: flex;
@@ -13,30 +18,62 @@ nav {
   border: 0.1vw solid rgb(209, 208, 208);
 }
 
-.dots9:hover {
-  background-color: rgb(247, 245, 245);
-}
-
-.logo {
-  width: 20%;
+#logo {
+  width: 40%;
 }
 
 img {
   margin: 0 0.5vw 0 0.5vw;
   height: 100%;
+  cursor: pointer;
 }
 
 #searchdiv {
-  width: 80%;
+  width: 60%;
+  font-size: 1vw;
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: right;
+  flex: 1;
 }
 
 #searchbar {
   height: 2vw;
-  width: 25vw;
+  width: 35vw;
   text-align: center;
   border: 1px solid rgb(219, 219, 219);
   border-radius: 5px;
+}
+
+#searchimg {
+  display: none;
+  justify-content: flex-start;
+}
+
+.profile-img-section {
+  margin-right: 0.5vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 40%;
+}
+
+#profile-img {
+  height: 1.5vw;
+  width: 1.5vw;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 710px) {
+  #searchbar {
+    display: none;
+  }
+
+  #searchimg {
+    display: inline;
+  }
+
+  #logo {
+    display: none;
+  }
 }

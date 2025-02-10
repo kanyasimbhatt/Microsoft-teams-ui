@@ -6,225 +6,373 @@
     <link rel="stylesheet" href="../style-files/navbar.css" />
     <link rel="stylesheet" href="../style-files/sidebar.css" />
     <link rel="stylesheet" href="../style-files/chat-section.css" />
+    <link rel="stylesheet" href="../style-files/main-chat-section.css" />
     <title>Microsoft Teams</title>
     <link rel="icon" type="image/x-icon" href="../images/business.png" />
   </head>
   <body>
     <nav>
       <div id="logo">
-        <img id="dots9" src="../images/OIP.png" alt="9 dots menu" />
+        <img id="dots9" src="../images/OIP.png" alt="9 dots menu" tabindex="0" title = "App Launcher"/>
 
-        <img src="../images/business.png" alt="teams logo" />
+        <img src="../images/business.png" alt="teams logo" tabindex="0" title = "teams"/>
       </div>
       <div id="searchdiv">
-        <input id="searchbar" type="search" placeholder="Search(Ctrl+Alt+E)" />
+        <input id="searchbar" type="search" placeholder="Search(Ctrl+Alt+E)" title = "search engine"/>
+        <img src="./images/search.png" alt="search img" id = "searchimg" class = "imageHW" tabindex="0" title = "search"/>
+        <div class = "profile-img-section">
+        <img src="../images/more.png" alt = "more section button" class = "imageHW" tabindex="0" title = "Settings and More">
+        <img src="../images/IMG_6745.jpg" alt = "profile section" id = "profile-img" tabindex="0" title = "Account Manager">
+
+    </div>
       </div>
     </nav>
+    <div class="main-chat-section">
+      <div class="navigation-sidebar-chatbar">
+        <aside class="sidebar" aria-label="sidebar">
+          <div class="sidebar-section" title = "Activity">
+            
+              <img
+                class="sidebar-img"
+                src="../images/bell.png"
+                alt="activity icon"
+              />
+            
+              <p class="sidebar-text">Activity</p>
+            
+            
+          </div>
+          <div class="sidebar-section chat-new" tabindex="0" title = "Chat">
+              <img
+                class="sidebar-img"
+                src="../images/chat.png"
+                alt="activity icon"
+                id="chat-logo"
+              />
+              <p class="sidebar-text">Chat</p>
+          </div>
 
-    <div class="navigation-sidebar-chatbar">
-      <aside class="sidebar" aria-label="sidebar">
-        <div class="sidebar-section">
-          <a href="#">
-            <img
-              class="sidebar-img"
-              src="../images/bell.png"
-              alt="activity icon"
-            />
-            <p class="sidebar-text">Activity</p>
-          </a>
-        </div>
-        <div class="sidebar-section chat-new">
-          <a href="index.html">
-            <img
-              class="sidebar-img"
-              src="../images/chat.png"
-              alt="activity icon"
-              id="chat-logo"
-            />
-            <p class="sidebar-text">Chat</p>
-          </a>
-        </div>
+          <div class="sidebar-section" title = "Teams">
+              <img
+                class="sidebar-img"
+                src="../images/group.png"
+                alt="activity icon"
+              />
+              <p class="sidebar-text">Teams</p>
+          </div>
 
-        <div class="sidebar-section">
-          <a href="#">
-            <img
-              class="sidebar-img"
-              src="../images/group.png"
-              alt="activity icon"
-            />
-            <p class="sidebar-text">Teams</p>
-          </a>
-        </div>
+          <div class="sidebar-section" title = "Calender">
+              <img
+                class="sidebar-img"
+                src="../images/calendar.png"
+                alt="activity icon"
+              />
+              <p class="sidebar-text">Calender</p>
+          </div>
 
-        <div class="sidebar-section">
-          <a href="#">
-            <img
-              class="sidebar-img"
-              src="../images/calendar.png"
-              alt="activity icon"
-            />
-            <p class="sidebar-text">calendar</p>
-          </a>
-        </div>
+          <div class="sidebar-section" title = "Call">
+              <img
+                class="sidebar-img"
+                src="../images/call.png"
+                alt="activity icon"
+              />
+              <p class="sidebar-text">Call</p>
+          </div>
 
-        <div class="sidebar-section">
-          <a href="#">
-            <img
-              class="sidebar-img"
-              src="../images/call.png"
-              alt="activity icon"
-            />
-            <p class="sidebar-text">Call</p>
-          </a>
-        </div>
+          <div class="sidebar-section" title = "One Cloud">
+              <img
+                class="sidebar-img"
+                src="../images/cloud.png"
+                alt="activity icon"
+              />
+              <p class="sidebar-text">One Cloud</p>
+          </div>
 
-        <div class="sidebar-section">
-          <a href="#">
-            <img
-              class="sidebar-img"
-              src="../images/cloud.png"
-              alt="activity icon"
-            />
-            <p class="sidebar-text">One Cloud</p>
-          </a>
-        </div>
+          <div class="sidebar-section" id="more-section">
+              <img
+                class="sidebar-img new"
+                src="../images/more.png"
+                alt="extra options"
+              />
+          </div>
 
-        <div class="sidebar-section" id="more-section">
-          <a href="#">
-            <img
-              class="sidebar-img new"
-              src="../images/more.png"
-              alt="extra options"
-            />
-          </a>
-        </div>
+          <div class="sidebar-section" title = "Add">
+              <img
+                class="sidebar-img"
+                src="../images/addition.png"
+                alt="activity icon"
+              />
+              <p class="sidebar-text">Add</p>
+          </div>
+        </aside>
 
-        <div class="sidebar-section">
-          <a href="#">
-            <img
-              class="sidebar-img"
-              src="../images/addition.png"
-              alt="activity icon"
-            />
-            <p class="sidebar-text">Add</p>
-          </a>
-        </div>
-      </aside>
+        <aside class="chat-sidebar" aria-label="chat-sidebar">
+          <div class="chat-text-div">
+            <h3>Chat</h3>
 
-      <aside class="chat-sidebar" aria-label="chat-sidebar">
-        <div class="chat-text-div">
-          <h3>Chat</h3>
+            <div class="chat-text-div-img">
+              <img class="imageHW" src="../images/more.png" alt="more option" tabindex="0" title = "More Options"/>
+              <img class="imageHW" src="../images/sort.png" alt="filter" tabindex="0" title = "Filter(Ctrl+Shift+F)"/>
+              <img
+                class="imageHW"
+                src="../images/new-chat.png"
+                alt="add chat icon" tabindex="0" title="New Chat(Alt+N)"
+              />
+            </div>
+          </div>
+          <details class="pinned-chat" open>
+            <summary>Pinned</summary>
+            <div class="self-chat chat-selected" tabindex="0" title = "Kanya Saras Bhatt (You)">
+              <img
+                class="self-chat-img"
+                src="../images/IMG_6745.jpg"
+                alt="account profile"
+              />
+              <div id="text-img-self-chat"  id = "text">
+                <p>Kanya Saras Bhatt (You)</p>
+                <p>ACCESSIBILITY Use semantic...</p>
+              </div>
 
-          <div class="chat-text-div-img">
-            <img class="imageHW" src="../images/more.png" alt="more option" />
-            <img class="imageHW" src="../images/sort.png" alt="filter" />
+              <div class="date-img">
+                <p>24/1</p>
+              </div>
+            </div>
+          </details>
+
+          <details class="pinned-chat" open>
+            <summary>Recent</summary>
+            <div class="self-chat people-chat-section" title = "Maitri Rajpara">
+              <div class="MR-logo">MR</div>
+              <div class="text">
+                <p class="people-name-styling">Maitri Rajpara</p>
+                <p class="people-name-styling">You: Correct</p>
+              </div>
+              <div class="date">
+                <p>13:19</p>
+              </div>
+            </div>
+
+            <div class="self-chat people-chat-section" title = "Inshiya Shabbir Ravat">
+              <div class="IR-logo">IR</div>
+              <div class="text">
+                <p class="people-name-styling">Inshiya Shabbir Ravat</p>
+                <p class="people-name-styling">Oh Okay.</p>
+              </div>
+              <div class="date">
+                <p>16:07</p>
+              </div>
+            </div>
+
+            <div class="self-chat people-chat-section" title = "Rinkesh Ranpariya">
+              <div class="RR-logo">RR</div>
+              <div class="text">
+                <p class="people-name-styling">Rinkesh Ranpariya</p>
+                <p class="people-name-styling">As the UI is deployed on it.</p>
+              </div>
+              <div class="date">
+                <p>29/01</p>
+              </div>
+            </div>
+
+            <div class="self-chat" title = "React Trainees 2025">
+              <img
+                class="self-chat-img"
+                src="../images/group-img.png"
+                alt="account profile"
+              />
+              <div class="text-img">
+                <p>React Trainees 2025</p>
+                <p>Adarsh: Sharing a snapshot of...</p>
+              </div>
+              <div class="date-img">
+                <p>16/01</p>
+              </div>
+            </div>
+
+            <div class="self-chat" title = "Daily Sync Up">
+              <img
+                class="dsu-chat-img"
+                src="../images/DSU.png"
+                alt="account profile"
+              />
+              <div class="text-img">
+                <p>Daily Sync Up</p>
+                <p>Maitri: MOM for today's evening...</p>
+              </div>
+              <div class="date-img">
+                <p>29/01</p>
+              </div>
+            </div>
+
+            <div class="self-chat" title = "DSM">
+              <img
+                class="dsu-chat-img"
+                src="../images/DSU.png"
+                alt="account profile"
+              />
+              <div class="text-img">
+                <p>DSM</p>
+                <p>Maitri: MOM for today's morning...</p>
+              </div>
+              <div class="date-img">
+                <p>30/01</p>
+              </div>
+            </div>
+          </details>
+        </aside>
+      </div>
+
+      <main class="main-body">
+        <div class="main-chat-heading">
+          <img
+            class="self-chat-img"
+            src="../images/IMG_6745.jpg"
+            alt="account profile"
+          />
+          <h3 tabindex="0">Kanya Saras Bhatt (You)</h3>
+
+          <h5 id="chat-text-main-chat-heading" tabindex="0" >Chat</h5>
+
+          <h5 id="shared-text-main-chat-heading">Shared</h5>
+
+          <div id="main-chat-heading-img">
+            <img class="imageHW" src="../images/more.png" alt="more section" tabindex="0" title = "More Chat Options"/>
             <img
               class="imageHW"
-              src="../images/new-chat.png"
-              alt="add chat icon"
+              src="../images/hide.png"
+              alt="open sidebar section" tabindex="0" title = "Open Chat Details"
             />
           </div>
         </div>
-        <details class="pinned-chat" open>
-          <summary>Pinned</summary>
-          <div class="self-chat">
-            <img
-              class="self-chat-img"
-              src="../images/IMG_6745.jpg"
-              alt="account profile"
-            />
-            <div class="text-img">
-              <p>Kanya Saras Bhatt (You)</p>
-              <p class="text">https://www.frontendmentor...</p>
+
+        <div class="main-chat-body">
+            <div class = "main-chat-body-chats" >
+                <div class = "text-on-chat">
+                    <p id ="day-text-on-friday">Friday</p>
+                    <p>Friday 13:00</p>
+                </div>
+                <div id = "frontendmentor-link" tabindex="0">
+                    <p>Start Creating Microsoft Teams layout using HTML and CSS realistically</p> 
+        
+                </div>
+            </div>
+            <div class = "main-chat-body-chats">
+                <div class = "text-on-chat">
+                    <p id ="day-text-on-friday">Friday</p>
+                    <p>Friday 13:21</p>
+                </div>
+                <div id = "frontendmentor-link">
+                    <a class = "chat-link" href = "https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm">
+                        https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm
+                    </a> 
+        
+                </div>
             </div>
 
-            <div class="date-img">
-              <p>24/1</p>
-            </div>
-          </div>
-        </details>
-
-        <details class="pinned-chat" open>
-          <summary>Recent</summary>
-          <div class="self-chat people-chat-section">
-            <div class="MR-logo">MR</div>
-            <div class="text">
-              <p class="people-name-styling">Maitri Rajpara</p>
-              <p class="people-name-styling">You: Correct</p>
-            </div>
-            <div class="date">
-              <p>13:19</p>
-            </div>
+            <div class = "main-chat-body-chats">
+              <div class = "text-on-chat">
+                  <p id ="day-text-on-friday">Friday</p>
+                  <p>Friday 13:21</p>
+              </div>
+              <div id = "frontendmentor-link">
+                  <a class = "chat-link" href = "https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm">
+                      https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm
+                  </a> 
+      
+              </div>
           </div>
 
-          <div class="self-chat people-chat-section">
-            <div class="IR-logo">IR</div>
-            <div class="text">
-              <p class="people-name-styling">Inshiya Shabbir Ravat</p>
-              <p class="people-name-styling">Oh Okay.</p>
+          <div class = "main-chat-body-chats">
+            <div class = "text-on-chat">
+                <p id ="day-text-on-friday">Friday</p>
+                <p>Friday 13:21</p>
             </div>
-            <div class="date">
-              <p>16:07</p>
+            <div id = "frontendmentor-link">
+                <a class = "chat-link" href = "https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm">
+                    https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm
+                </a> 
+    
             </div>
-          </div>
+        </div>
 
-          <div class="self-chat people-chat-section">
-            <div class="RR-logo">RR</div>
-            <div class="text">
-              <p class="people-name-styling">Rinkesh Ranpariya</p>
-              <p class="people-name-styling">As the UI is deployed on it.</p>
-            </div>
-            <div class="date">
-              <p>29/01</p>
-            </div>
+        <div class = "main-chat-body-chats">
+          <div class = "text-on-chat">
+              <p id ="day-text-on-friday">Friday</p>
+              <p>Friday 13:21</p>
           </div>
+          <div id = "frontendmentor-link">
+              <a class = "chat-link" href = "https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm">
+                  https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm
+              </a> 
+  
+          </div>
+      </div>
 
-          <div class="self-chat">
-            <img
-              class="self-chat-img"
-              src="../images/group-img.png"
-              alt="account profile"
-            />
-            <div class="text-img">
-              <p>React Trainees 2025</p>
-              <p>Adarsh: Sharing a snapshot of...</p>
-            </div>
-            <div class="date-img">
-              <p>16/01</p>
-            </div>
-          </div>
+      <div class = "main-chat-body-chats">
+        <div class = "text-on-chat">
+            <p id ="day-text-on-friday">Friday</p>
+            <p>Friday 13:21</p>
+        </div>
+        <div id = "frontendmentor-link">
+            <a class = "chat-link" href = "https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm">
+                https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm
+            </a> 
 
-          <div class="self-chat">
-            <img
-              class="dsu-chat-img"
-              src="../images/DSU.png"
-              alt="account profile"
-            />
-            <div class="text-img">
-              <p>Daily Sync Up</p>
-              <p>Maitri: MOM for today's evening...</p>
-            </div>
-            <div class="date-img">
-              <p>29/01</p>
-            </div>
-          </div>
+        </div>
+    </div>
 
-          <div class="self-chat">
-            <img
-              class="dsu-chat-img"
-              src="../images/DSU.png"
-              alt="account profile"
-            />
-            <div class="text-img">
-              <p>DSM</p>
-              <p>Maitri: MOM for today's morning...</p>
+            <div class = "main-chat-body-chats">
+                <div class = "text-on-chat">
+                    <p id ="day-text-on-friday">Friday</p>
+                    <p>Friday 15:31</p>
+                </div>
+                <div id = "frontendmentor-link">
+                    <a class = "chat-link" href = "https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm">
+                        https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm
+                    </a> 
+        
+                </div>
             </div>
-            <div class="date-img">
-              <p>30/01</p>
+            
+          
+            <div class = "main-chat-body-chats">
+                <div class = "text-on-chat">
+                    <p id ="day-text-on-accessibility">Yesterday</p>
+                    <p>Yesterday 18:00</p>
+                </div>
+                <div id = "accessibility-text" tabindex="0">
+                    <p>ACCESSIBILITY<br></p>
+                        <ul>
+                            <li>Use semantic HTML, aka "The right element for the right job", because the browser provides so many built-in accessibility hooks.</li>
+                            <li>Accessible best practices such as alt text, good link best, form labels, and table row and column headings and scoping.</li>
+                            <li>Using simple plain language, steering clear of slang and abbreviations where possible, and providing definitions where it is not possible.</li>
+                            <li> The concept and practice of keyboard accessibility.</li>
+                            <li>The importance of source order.</li>
+                        </ul>
+                        
+                </div>
             </div>
+        </div>
+            <div id = "text-style">
+          <div class="textbar-section" tabindex="0">
+            <input
+              id="textbar"
+              type="text"
+              placeholder="Type a Message"
+            ></input>
+            <img class = "imageHW margin-top-style" src="../images/color.png" alt="font layout change button" tabindex="0" title = "Show Formatting Options(Ctrl+Shift+X)">
+            <img class = "imageHW margin-top-style" src="../images/happiness.png" alt="add emojis button" tabindex="0" title = "Emoji, Gifs and Stickers">
+            <img class = "imageHW margin-top-style" src="../images/update-arrows.png" alt="loop component" tabindex="0" title = "Loop components">
+            <img class = "imageHW margin-top-style" src="../images/plus.png" alt="add attachments" tabindex="0" title = "Actions and Apps">
+            <img class = "imageHW margin-top-style" src="../images/send.png" alt="send button" tabindex="0" title = "Send(Ctrl+Enter)">
+
+            
           </div>
-        </details>
-      </aside>
+        </div>
+        
+        
+        
+      </main>
     </div>
   </body>
 </html>
